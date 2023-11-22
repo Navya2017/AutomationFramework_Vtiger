@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-08T08:49:16 GST" name="Default suite" finished-at="2023-11-08T08:49:34 GST" duration-ms="18434">
+    <groups>
+      <group name="RegressionSuite">
+        <method signature="CreateContactTest.createContact()[pri:0, instance:contactTests.CreateContactTest@3a93b025]" name="createContact" class="contactTests.CreateContactTest"/>
+      </group> <!-- RegressionSuite -->
+      <group name="SmokeSuite">
+        <method signature="CreateContactTest.createContact()[pri:0, instance:contactTests.CreateContactTest@3a93b025]" name="createContact" class="contactTests.CreateContactTest"/>
+      </group> <!-- SmokeSuite -->
+    </groups>
+    <test started-at="2023-11-08T08:49:16 GST" name="Default test" finished-at="2023-11-08T08:49:34 GST" duration-ms="18434">
+      <class name="contactTests.CreateContactTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:contactTests.CreateContactTest@3a93b025]" started-at="2023-11-08T08:49:16 GST" name="bsConfig" finished-at="2023-11-08T08:49:16 GST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:contactTests.CreateContactTest@3a93b025]" started-at="2023-11-08T08:49:16 GST" name="bcConfig" finished-at="2023-11-08T08:49:21 GST" duration-ms="4709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:contactTests.CreateContactTest@3a93b025]" started-at="2023-11-08T08:49:21 GST" name="bmConfig" finished-at="2023-11-08T08:49:24 GST" duration-ms="2854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createContact()[pri:0, instance:contactTests.CreateContactTest@3a93b025]" started-at="2023-11-08T08:49:24 GST" name="createContact" finished-at="2023-11-08T08:49:32 GST" duration-ms="8219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:contactTests.CreateContactTest@3a93b025]" started-at="2023-11-08T08:49:32 GST" name="amConfig" finished-at="2023-11-08T08:49:33 GST" duration-ms="1182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:contactTests.CreateContactTest@3a93b025]" started-at="2023-11-08T08:49:33 GST" name="acConfig" finished-at="2023-11-08T08:49:34 GST" duration-ms="1070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:contactTests.CreateContactTest@3a93b025]" started-at="2023-11-08T08:49:35 GST" name="asConfig" finished-at="2023-11-08T08:49:35 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- contactTests.CreateContactTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
